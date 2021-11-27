@@ -1,0 +1,30 @@
+.search {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #text {
+  color: white;
+  background-color: red;
+}
+
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMediumMuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-page.Mui-selected.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  color: white;
+  background-color: red;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  background-color: red;
+}
+
+span.MuiTouchRipple-root.css-8je8zh-MuiTouchRipple-root {
+  color: white;
+  z-index: -1;
+}
+
+ul.MuiPagination-ul.css-wjh20t-MuiPagination-ul button {
+  background-color: #20de8c;
+  color: #253240;
+} */

@@ -1,0 +1,46 @@
+.movie-details {
+  font-size: 1.2rem;
+}
+
+.upper-half {
+  display: flex;
+  margin: 3%;
+  padding: 3%;
+  border-radius: 10px;
+  background-color: #1b2634;
+}
+
+.poster {
+  width: 250px;
+  height: 400px;
+  background: #1b2634;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.upper-half-content {
+}
+
+img {
+  width: 100%;
+}
+
+.imdb-rating {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px #20de8c solid;
+  border-radius: 100%;
+  transform: translateX(100%);
+  font-size: 1.2rem;
+  background-color: #1b2634;
+  color: #20de8c;
+}
+
+.lower-half {
+  padding: 0 3%;
+  font-size: 1rem;
+}
