@@ -1,46 +1,68 @@
-.movie-details {
-  font-size: 1.2rem;
+.movie-details-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem;
+  grid-template-columns: 1fr 9fr;
 }
 
-.upper-half {
-  display: flex;
-  margin: 3%;
-  padding: 3%;
-  border-radius: 10px;
+.movie-details-grid > * {
   background-color: #1b2634;
+  border-radius: 10px;
 }
 
-.poster {
-  width: 250px;
-  height: 400px;
-  background: #1b2634;
+.grid-1 {
+  min-width: 250px;
+  min-height: 350px;
+  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.upper-half-content {
-}
-
-img {
+.grid-1 > img {
   width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
-.imdb-rating {
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px #20de8c solid;
-  border-radius: 100%;
-  transform: translateX(100%);
+.grid-2,
+.grid-3 {
+  padding: 1rem;
   font-size: 1.2rem;
-  background-color: #1b2634;
-  color: #20de8c;
 }
 
-.lower-half {
-  padding: 0 3%;
-  font-size: 1rem;
+.grid-2 > p,
+.grid-3 > p {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin: 0.6rem;
+  word-break: break-all;
+}
+
+.grid-2 > p > span,
+.grid-3 > p > span {
+  display: inline-block;
+  width: 20%;
+}
+
+.grid-2 > .imdb-rating {
+  border-radius: 100%;
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  color: #1b2634;
+  background-color: #20de8c;
+  display: inline-block;
+  right: 0;
+}
+
+.grid-3 {
+  grid-column: 1 / span 2;
+  padding: 1rem;
+}
+
+.grid-3 > p {
+  font-size: 1.2rem;
 }

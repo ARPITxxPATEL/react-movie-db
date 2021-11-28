@@ -28,22 +28,28 @@ export default function MovieDetails() {
     return "Movie details are being fetched! Please wait";
   } else if (movieDetails) {
     return (
-      <div className="movie-details">
-
-        <div className="upper-half">
-          <a href={movieDetails.Poster} className="poster">
-            <img src={movieDetails.Poster} alt={movieDetails.Title} />
-          </a>
-          <div className="upper-half-content">
-            <div className="imdb-rating">{movieDetails.imdbRating}</div><br/>
-            <span>Actors: {movieDetails.Actors}</span>
-          </div>
+      <div className="movie-details-grid">
+        <a href={movieDetails.Poster} alt={movieDetails.Title} className="grid-1">
+          <img src={movieDetails.Poster} alt={movieDetails.Title} />
+        </a>
+        
+        <div className="grid-2">
+          <div className="imdb-rating">{movieDetails.imdbRating}</div>
+          <p><span>Genre</span> :  {movieDetails.Genre}</p>
+          <p><span>Director</span> :  {movieDetails.Director}</p>
+          <p><span>Actors</span> :  {movieDetails.Actors}</p>
+          <p><span>Writer</span> :  {movieDetails.Writer}</p>
+          <p><span>Language</span> :  {movieDetails.Language}</p>
+          <p><span>Rated</span> :  {movieDetails.Rated}</p>
         </div>
 
-        <div className="lower-half">
-          <p>Released on: {movieDetails.Released}</p>
+        <div className="grid-3">
+          <p><span>Released On</span> :  {movieDetails.Released}</p>
+          <p><span>Country</span> :  {movieDetails.Country}</p>
+          <p><span>Rated</span> :  {movieDetails.Rated}</p>
+          <p><span>Box Office</span> :  {movieDetails.BoxOffice}</p>
+          <p><span>Plot</span> :  {movieDetails.Plot}</p>
         </div>
-
       </div>
     );
   } else {

@@ -1,0 +1,32 @@
+.home {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: fit-content;
+  text-decoration: none;
+  font-weight: bold;
+  color: #20de8c;
+  font-size: 1.5rem;
+  padding: 1% 0.5%;
+  background-color: #1b2634;
+  border-left: 10px transparent solid;
+  border-right: 10px transparent solid;
+}
+
+.text:hover {
+  color: #1b2634;
+  background: #20de8c;
+  border-left: 10px #1b2634 solid;
+  border-right: 10px #1b2634 solid;
+}
+
+.active {
+  background: #000;
+  text-decoration: none;
+  color: white;
+}
