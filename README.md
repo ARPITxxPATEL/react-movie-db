@@ -1,6 +1,6 @@
 # REACT-MOVIE_DB
 
-[Website Deployed here!](https://arpitkumar-patel-react-movie-db.netlify.app/)
+[https://arpitkumar-patel-react-movie-db.netlify.app/](https://arpitkumar-patel-react-movie-db.netlify.app/)
 
 ## Technology & libraries
 
