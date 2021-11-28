@@ -6,9 +6,9 @@
 
 - [React v17.0](https://reactjs.org/blog/2020/10/20/react-v17.html)
 - [CSS3]()
-- [MUI](https://mui.com/)
+- [MUI v5.2](https://mui.com/)
 - [OMDB Link](http://www.omdbapi.com/)
-- [axios](https://www.npmjs.com/package/axios)
+- [axios v0.24](https://www.npmjs.com/package/axios)
 
 ## New things I learned
 
